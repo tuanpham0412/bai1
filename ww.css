@@ -1,0 +1,48 @@
+body, h1,h2,h3,h4,h5,h6,ul,li{
+    padding: 0px;
+    margin:0px;
+}
+.bg-marggin{
+    background-color: linear-gradient(75deg, #4f1bc5, #7b17c5) !important
+}   
+.box{
+    padding: 0px 15px;
+}
+
+@media screen and (min-width: 768px){
+    .w25{ width: 25%;}
+    .w33{ width: 33.3%;}
+    .w40{ width: 40%;}
+    .w50{ width:50%; }
+    .w60{ width: 60%;}
+    .container{ width: 1200px;}
+    .left{float: left;}
+    .right{float: right;}
+    .clear{clear: both;}
+}
+
+#logo img{
+    margin: 15px;
+    width: 200px;
+}
+.navul{
+    margin-top: 15px; 
+
+}
+.nav ul li{
+    list-style-type: none;
+    float:left;
+    padding: 10px 15px;
+
+}
+.nav ul li a{ color: rgb(80, 131, 177); font-size: 18px; font-weight: 500px; text-decoration: none;}
+ .slide-content-text{
+    padding-top:50px;
+    color: beige;
+
+ }
+ .slider-content-text .title{
+    font-size: 30px;
+ }
+
+ 
